@@ -24,8 +24,42 @@ namespace DietPlanApp.BusinessLogic
                 return cpm;
             }
 
+            if(PhysicalActivity == 1)
+            {
+                var cpm_total = cpm * 1.2;
+                return cpm_total;
 
-           
+            }
+            if (PhysicalActivity == 2)
+            {
+                var cpm_total = cpm * 1.4;
+                return cpm_total;
+
+            }
+            if (PhysicalActivity == 3)
+            {
+                var cpm_total = cpm * 1.6;
+                return cpm_total;
+
+            }
+            if (PhysicalActivity == 4)
+            {
+                var cpm_total = cpm * 1.75;
+                return cpm_total;
+
+            }
+            if (PhysicalActivity == 5)
+            {
+                var cpm_total = cpm * 2;
+                return cpm_total;
+                d
+            }
+            if (PhysicalActivity == 6)
+            {
+                var cpm_total = cpm * 2.2;
+                return cpm_total;
+
+            }
 
 
 

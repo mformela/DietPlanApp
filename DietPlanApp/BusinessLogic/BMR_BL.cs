@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+
+
 namespace DietPlanApp.BusinessLogic
 {
     public class BMR_BL
